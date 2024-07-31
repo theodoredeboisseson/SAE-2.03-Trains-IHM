@@ -1,0 +1,47 @@
+/*@import url('https://fonts.googleapis.com/css2?family=IM+Fell+English+SC&display=swap');*/
+
+.root {
+    -fx-text-fill: black;
+    -fx-font-size: 20;
+}
+
+SVGPath {
+    -fx-fill: transparent;
+    -fx-stroke: rgba(21, 54, 87, 0.25); /*transparent*/;
+    -fx-stroke-width: 3px;
+}
+
+.main-font {
+    -fx-font-size: 30;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+.second-font {
+    -fx-font-size: 20;
+    -fx-font-weight: bold;
+    -fx-text-alignment: center;
+}
+
+.ressources-joueurCourant {
+    -fx-background-color: white;
+    -fx-background-radius: 25px;
+    -fx-padding: 10px 25px;
+}
+
+.conteneur-cartes {
+    -fx-alignment: CENTER;
+    -fx-background-color: rgba(255, 255, 255, 0.1);
+    -fx-background-radius: 30px;
+    -fx-padding: 20px;
+}
+
+.surligner-joueur {
+    -fx-border-width: 3px;
+    -fx-border-color: yellow;
+}
+
+.bordures {
+    -fx-border-width: 3px;
+    -fx-border-color: rgba(0, 0, 0, 0.5);
+}
